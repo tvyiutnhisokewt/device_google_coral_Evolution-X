@@ -464,6 +464,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.ccodec=4 \
     debug.stagefright.omx_default_rank=512 \
 
+# rro_overlays
+PRODUCT_PACKAGES += \
+    SettingsFloralOverlay
+
 # Disable OMX
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.media.omx=0 \
