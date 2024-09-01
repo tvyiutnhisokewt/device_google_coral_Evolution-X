@@ -16,7 +16,7 @@ include device/google/coral/coral/device-evolution.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4 XL
-PRODUCT_NAME := lineage_coral
+PRODUCT_NAME := coral
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3040

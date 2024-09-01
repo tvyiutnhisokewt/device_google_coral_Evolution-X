@@ -145,6 +145,10 @@ else
       $(LOCAL_PATH)/init.hardware.diag.rc.user:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.$(PRODUCT_PLATFORM).diag.rc
 endif
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+
 # Enable CAT by default
 ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_COPY_FILES += \
