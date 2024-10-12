@@ -18,6 +18,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4 XL
 PRODUCT_NAME := coral
 
+# Remove if build error
+TARGET_USES_CUSTOM_GAPPS := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
